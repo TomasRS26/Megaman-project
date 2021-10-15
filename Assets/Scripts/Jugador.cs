@@ -32,6 +32,7 @@ public class Jugador : MonoBehaviour
     {
         Correr();
         Saltar();
+        Disparar();
     }
 
     void Correr ()
@@ -93,4 +94,15 @@ public class Jugador : MonoBehaviour
         }
     }
 
+    void Disparar()
+    {
+        if (Input.GetKey(KeyCode.X))
+        {
+            Myanimator.SetLayerWeight(1, 1);
+        }
+        else
+        {
+            Myanimator.SetLayerWeight(1, 0);
+        }
+    }
 }
