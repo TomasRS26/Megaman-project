@@ -86,7 +86,7 @@ public class Jugador : MonoBehaviour
         //algunos arreglos codigo dash (en especifico aqui es la fuerza de empuje)
         if (isDashing)
         {
-            MyRigidbody.AddForce(new Vector2(direccion * 5, 0), ForceMode2D.Impulse);
+            MyRigidbody.AddForce(new Vector2(direccion * 100, 0), ForceMode2D.Impulse);
         }
     }
 
@@ -133,7 +133,6 @@ public class Jugador : MonoBehaviour
         {
             if(Colisionador.IsTouchingLayers(LayerMask.GetMask("Terreno")))
             {
-                MyRigidbody.velocity = new Vector2(0, 0);
                 MyRigidbody.AddForce(new Vector2(0, VelocidadSalto * 100f));
                 Myanimator.SetTrigger("Jumping");
                 saltos = true;
