@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jump2
+  m_Name: BalaIdle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 8419506674217279071, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
-    - time: 0.083333336
-      value: {fileID: -7161082993080780609, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
-    - time: 0.16666667
-      value: {fileID: 5560589235883687161, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
-    - time: 0.25
-      value: {fileID: -8074116911853616773, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
+      value: {fileID: 5225395099146197240, guid: a83416d88e690cb478692e0e35c366a7, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,16 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 8419506674217279071, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
-    - {fileID: -7161082993080780609, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
-    - {fileID: 5560589235883687161, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
-    - {fileID: -8074116911853616773, guid: 4c380d8eb9fa22547adea4389a55fda1, type: 3}
+    - {fileID: 5225395099146197240, guid: a83416d88e690cb478692e0e35c366a7, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.33333334
+    m_StopTime: 0.083333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
